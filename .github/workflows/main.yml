@@ -1,4 +1,4 @@
-name: Rubocop
+name: Workflow
 
 on: [push, pull_request]
 
