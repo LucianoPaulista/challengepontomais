@@ -1,24 +1,37 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Projeto referente ao desafio da PontoMais
 
-Things you may want to cover:
+Optei por fazer as tarefas em cima de um projeto Rails seque abaixo tecnologias utilizadas.
 
-* Ruby version
+* Ruby 3.0.2
+* Rails 6.1.4.4 (obs não optei por rails 7 por ter sido lançado recentemente)
+* PostgreSql
 
-* System dependencies
+Segue abaixo as tarefas solicitadas com suas respectivas respostas.
 
-* Configuration
+1 - Faça uma função que receba uma string e retorne verdadeiro caso ela seja palíndromo, do contrário ela deve retornar falso. (palíndromos são palavras ou frases que podem ser lidas da esquerda para a direita ou da direita para a esquerda.
 
-* Database creation
+  [Solução](https://github.com/LucianoPaulista/challengepontomais/pull/11/files).
 
-* Database initialization
+2 - Faça uma função que receba uma string contendo um CPF e verifique se ele está formatado de acordo com a máscara 999.999.999-99. A função deve usar regex para fazer a validação da máscara e deve retornar verdadeiro ou falso.
+cpf = “461.636.517-23”.
 
-* How to run the test suite
+  [Solução](https://github.com/LucianoPaulista/challengepontomais/pull/12/files).
 
-* Services (job queues, cache servers, search engines, etc.)
+3 - O fatorial de um número n!, é definido como o produto de todos os números inteiros de 1
+a n. Por exemplo: 5! é 5 * 4 * 3 * 2 * 1 = 120
 
-* Deployment instructions
+A maioria das implementações de cálculo de fatoriais usam uma função recursiva para
+determinar o valor fatorial(n). No entanto, a maioria dos sistemas não consegue lidar com
+pilhas de recursividade maiores que 2000.
 
-* ...
+Implemente uma função para calcular o fatorial de números arbitrariamente grandes, sem
+utilizar recursividade.
+
+    Regras
+    ● n < 0 deve retornar nil
+    ● n = 0 deve retornar 1
+    ● n > 0 deve retornar n!
+
+[Solução](https://github.com/LucianoPaulista/challengepontomais/pull/13/files).
