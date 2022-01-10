@@ -69,9 +69,9 @@ Table job_titles
 models Employee, Team e JobTitle, declare as associações das models e escreva a mesma
 query com a sintaxe do ActiveRecord.**
 
-[Solução]()
+[Solução](https://github.com/LucianoPaulista/challengepontomais/pull/14)
 
-**6 - Descreva o que faz o seguinte comando e por que ele é amplamente utilizado: a ||= b
+**6 - Descreva o que faz o seguinte comando e por que ele é amplamente utilizado: a ||= b**
 
 [Solução](https://github.com/LucianoPaulista/challengepontomais/issues/6#issuecomment-1008331894)
 
